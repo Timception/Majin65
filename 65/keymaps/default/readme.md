@@ -1,1 +1,1 @@
-# The default keymap for Majin65
+# The default keymap for Majin 65

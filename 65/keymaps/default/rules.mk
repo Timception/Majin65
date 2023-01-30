@@ -1,3 +1,4 @@
+LTO_ENABLE				= yes
 CONSOLE_ENABLE			= no	# Console for debug
 COMMAND_ENABLE			= no	# Commands for debug and configuration
 MOUSEKEY_ENABLE			= yes	# Mouse keys
@@ -12,4 +13,4 @@ ENCODER_ENABLE			= yes
 ENCODER_MAP_ENABLE		= yes
 VIAL_ENCODERS_ENABLE	= yes
 VIALRGB_ENABLE			= yes
-EXTRAFLAGS += -flto
+EXTRAFLAGS				+= -flto
