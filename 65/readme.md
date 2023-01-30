@@ -1,4 +1,4 @@
-# Majin65
+# Majin 65
 
 ![Screenshot 2023-01-04 000935](https://user-images.githubusercontent.com/84595044/210424359-3254fcf8-b0d0-4a4a-89c1-1cdd57e91655.png)
 

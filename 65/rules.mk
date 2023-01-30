@@ -25,7 +25,6 @@ OLED_ENABLE			= yes
 OLED_DRIVER			= SSD1306
 WPM_ENABLE			= yes
 
-LAYOUTS				= 65_ansi
 
 # Do not enable SLEEP_LED_ENABLE. it uses the same timer as BACKLIGHT_ENABLE
 SLEEP_LED_ENABLE	= no		# Breathing sleep LED during USB suspend
