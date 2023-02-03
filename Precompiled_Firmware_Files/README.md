@@ -1,5 +1,5 @@
-# Keyboard-Firmware
-Compiled Firmware Files for Majin 65 Keyboard and Majin 4x2 Macropad
+# Precompiled-Firmware-Files
+Compiled Firmware Files for Majin 65 Keyboard
 
 Download QMK Toolbox from: https://github.com/qmk/qmk_toolbox/releases
 
