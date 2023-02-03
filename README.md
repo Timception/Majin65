@@ -9,4 +9,4 @@
 * An expanded 65% Vial Enabled keyboard with 2 rotary encoders, an OLED and RGB lighting on every key.
 
 * Keyboard Maintainer: [Timception](https://github.com/Timception)
-* Images: [Timception](https://instagram.com/keykraft)
+* Images: [Click here](https://instagram.com/keykraft)
