@@ -18,6 +18,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #pragma once
 #include "config_common.h"
 
+//encoder fix
+//#define ENCODER_DEFAULT_POS 0x3
 
 /* key matrix size */
 #define MATRIX_ROWS 5
@@ -32,9 +34,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Left to Right */
 #define MATRIX_COL_PINS { B1, B0, A7, A6, A5, A4, A3, A2, A1, A0, C15, C14, B12, B13, B14, B15}
 
+//Encoders
 #define ENCODERS_PAD_A { B10, B10 }
 #define ENCODERS_PAD_B { B3, B9 }
-#define ENCODER_RESOLUTION 4
+
+//for the default 17mm encoders
+//#define ENCODER_RESOLUTIONS { 4 }
+
+//for the reversed left encoder (green 15mm)
+#define ENCODER_RESOLUTIONS { 4, 2 }
+
 #define ENCODER_DEFAULT_POS 0x3
 
 //#define VIAL_ENCODER_DEFAULT { RGB_RMOD, RGB_MOD, RGB_HUD, RGB_HUI, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS }
