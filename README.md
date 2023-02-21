@@ -10,5 +10,3 @@
 
 * Keyboard Maintainer: [Timception](https://github.com/Timception)
 * Images: [Click here](https://instagram.com/keykraft)
-
-google-site-verification: google94a5260ed2286f00.html
