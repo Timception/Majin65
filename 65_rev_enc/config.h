@@ -35,7 +35,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //Encoders
 #define ENCODERS_PAD_A { B10, B10 }
 #define ENCODERS_PAD_B { B3, B9 }
-//#define ENCODER_DIRECTION_FLIP
+#define ENCODER_DIRECTION_FLIP
 #define ENCODER_RESOLUTION 4
 #define ENCODER_DEFAULT_POS 0x3
 
