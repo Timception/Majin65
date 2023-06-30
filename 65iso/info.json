@@ -1,5 +1,5 @@
 {
-    "keyboard_name": "65",
+    "keyboard_name": "65iso",
     "maintainer": "Timception",
 	"url": "https://github.com/Timception/Majin65",
 	"manufacturer": "Majin",
@@ -10,7 +10,6 @@
     },
     "processor": "STM32F401",
     "board": "BLACKPILL_STM32_F401",
-    "url": "https://github.com/majin",
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x2369",
