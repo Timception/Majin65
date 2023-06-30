@@ -273,9 +273,8 @@ oled_rotation_t oled_init_user(oled_rotation_t const rotation) {
 	return OLED_ROTATION_270;
 }
 
-bool oled_task_user(void) {
-	extern void render_mod_status(void);
-	is_keyboard_master() ? render_luna_status() : render_mod_status();
+bool oled_task_user(void) {	
+	render_luna_status();
 	return false;
 }
 
