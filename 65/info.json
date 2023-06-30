@@ -1,7 +1,7 @@
 {
     "keyboard_name": "65",
     "maintainer": "Timception",
-	"url": "https://github.com/Timception/Drift",
+	"url": "https://github.com/Timception/Majin65",
 	"manufacturer": "Majin",
     "bootloader": "stm32-dfu",
     "features": {

@@ -39,3 +39,5 @@
         { K30,    K31,  K32,   K33, K34,   K35,   K36,   K37,   K38,   K39,   K3A, K3B, K3C, KC_NO, K3E,   K3F, }, \
         { K40,    K41,  K42,   K43, KC_NO, KC_NO, K46,   KC_NO, KC_NO, KC_NO, K4A, K4B, K4C, KC_NO, K4E,   K4F }  \
 }
+
+#define LAYOUT LAYOUT_all
