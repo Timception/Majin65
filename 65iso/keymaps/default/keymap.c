@@ -82,7 +82,7 @@ bool oled_task_user(void) {
             oled_write_P(PSTR("Layer\n\n TWO\n"), false);
             break;
         case 2:
-            oled_write_P(PSTR("Layer\n\n Three\n"), false);
+            oled_write_P(PSTR("Layer\nThree"), false);
             break;
 		case 3:
             oled_write_P(PSTR("Layer\n\n FOUR\n"), false);
