@@ -84,10 +84,11 @@ uint8_t current_idle_frame = 0;
 uint8_t current_tap_frame = 0;
 
 #ifdef OLED_ENABLE
-oled_rotation_t oled_init_kb(oled_rotation_t rotation) {
-	//return OLED_ROTATION_90;
-	return OLED_ROTATION_180;
+/*
+oled_rotation_t oled_init_user(oled_rotation_t rotation) {
+    return OLED_ROTATION_270;  // flips the display 270 degrees
 }
+*/
 
 
 static void render_anim(void) {

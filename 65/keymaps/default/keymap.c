@@ -66,27 +66,22 @@ const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
 
 
 #ifdef OLED_ENABLE
-
-oled_rotation_t oled_init_kb(oled_rotation_t rotation) {
-	return OLED_ROTATION_270;
-	//return OLED_ROTATION_180;
-}
-
 bool oled_task_user(void) {
     // Host Keyboard Layer Status
+    oled_write_P(PSTR("Layer: "), false);
 
     switch (get_highest_layer(layer_state)) {
         case 0:
-            oled_write_P(PSTR("Layer\n\n ONE\n"), false);
+            oled_write_P(PSTR("One\n"), false);
             break;
         case 1:
-            oled_write_P(PSTR("Layer\n\n TWO\n"), false);
+            oled_write_P(PSTR("Two\n"), false);
             break;
         case 2:
-            oled_write_P(PSTR("Layer\nThree"), false);
+            oled_write_P(PSTR("Three\n"), false);
             break;
 		case 3:
-            oled_write_P(PSTR("Layer\n\n FOUR\n"), false);
+            oled_write_P(PSTR("Four\n"), false);
             break;
         default:
             // Or use the write_ln shortcut over adding '\n' to the end of your string
