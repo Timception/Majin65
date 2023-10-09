@@ -15,7 +15,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 /* ws2812 RGB LED */
-#	define RGB_DI_PIN						B8
+#	define WS2812_DI_PIN					B8
+//#	define RGB_DI_PIN						B8
 #	define RGB_MATRIX_MAXIMUM_BRIGHTNESS	99 // limits maximum brightness of LEDs to 200 out of 255. If not defined maximum brightness is set to 255
 #	define LED_MATRIX_DEFAULT_VAL 			65
 

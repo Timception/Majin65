@@ -12,7 +12,10 @@ KEY_OVERRIDE_ENABLE		= no
 ENCODER_ENABLE			= yes
 ENCODER_MAP_ENABLE		= yes
 VIAL_ENCODERS_ENABLE	= yes
-VIALRGB_ENABLE			= yes
+#VIALRGB_ENABLE			= yes
+OLED_ENABLE				= yes
+#OLED_DRIVER				= SSD1306
+OLED_DRIVER_ENABLE		= yes			# Not sure if this is even needed.
 EXTRAFLAGS				+= -flto
 
 # OLED Animation Stuff
