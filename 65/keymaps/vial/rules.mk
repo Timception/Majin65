@@ -6,16 +6,14 @@ VIA_ENABLE				= yes
 VIAL_ENABLE				= yes
 VIAL_INSECURE			= yes
 QMK_SETTINGS			= no
-TAP_DANCE_ENABLE		= yes
-COMBO_ENABLE			= yes
-KEY_OVERRIDE_ENABLE		= yes
+TAP_DANCE_ENABLE		= no
+COMBO_ENABLE			= no
+KEY_OVERRIDE_ENABLE		= no
 ENCODER_ENABLE			= yes
 ENCODER_MAP_ENABLE		= yes
 VIAL_ENCODERS_ENABLE	= yes
-#VIALRGB_ENABLE			= yes
+VIALRGB_ENABLE			= yes
 OLED_ENABLE				= yes
-#OLED_DRIVER				= SSD1306
-OLED_DRIVER_ENABLE		= yes			# Not sure if this is even needed.
 EXTRAFLAGS				+= -flto
 
 # OLED Animation Stuff
