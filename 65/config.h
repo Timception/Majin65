@@ -1,5 +1,5 @@
 /*
-Copyright 2023 Timception
+Copyright 2024 Timception
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -16,7 +16,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 #pragma once
-//#include "config_common.h"
 
 
 /* key matrix size */
@@ -39,37 +38,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define ENCODER_RESOLUTION 4
 #define ENCODER_DEFAULT_POS 0x3
 
-//#define VIAL_ENCODER_DEFAULT { RGB_RMOD, RGB_MOD, RGB_HUD, RGB_HUI, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS }
-
-// RGB Matrix Settings
-//#define WS2812_PWM_DRIVER PWMD4
-//#define WS2812_PWM_CHANNEL 3
-
-//#define WS2812_PWM_DRIVER PWMD4
-//#define WS2812_PWM_CHANNEL 3
-//#define WS2812_PWM_DMA_STREAM STM32_DMA1_STREAM4
-//#define WS2812_PWM_DMA_CHANNEL 4
-//#define WS2812_PWM_PAL_MODE 1
-//#define WS2812_EXTERNAL_PULLUP
-
-//#define WS2812_PWM_DRIVER PWMD4
-//#define WS2812_PWM_CHANNEL 3
-//#define WS2812_PWM_PAL_MODE 1
-//#define WS2812_EXTERNAL_PULLUP
-//#define WS2812_PWM_DMA_STREAM STM32_DMA1_STREAM1
-//#define WS2812_PWM_DMA_CHANNEL 3
-//#define WS2812_PWM_TARGET_PERIOD 800000
-
 #define RGB_MATRIX_FRAMEBUFFER_EFFECTS
 #define RGB_MATRIX_KEYPRESSES
     
 
-/* COL2ROW or ROW2COL */
-//#define DIODE_DIRECTION COL2ROW
-
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 5
-//#define VIAL_KEYBOARD_UID {0xCA, 0x24, 0xDC, 0x4A, 0x52, 0x73, 0x0A, 0x56}
 
 // The state of the indicator pins when the LED is "on" - 1 for high
 #define LED_PIN_ON_STATE 0
@@ -92,11 +66,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define SYM 3
 #define FNC 4
 */
-
-
-/* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
-//#define LOCKING_SUPPORT_ENABLE
-/* Locking resynchronize hack */
-//#define LOCKING_RESYNC_ENABLE
 
 //#define FORCE_NKRO
