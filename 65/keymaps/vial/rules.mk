@@ -16,6 +16,7 @@ VIALRGB_ENABLE			= yes
 OLED_ENABLE				= yes
 EXTRAFLAGS				+= -flto
 
+
 # OLED Animation Stuff
 #SRC					+= oled/oled-bongocat.c oled/oled-icons.c
 SRC						+= oled/oled-luna.c oled/oled-icons.c

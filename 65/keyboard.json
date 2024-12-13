@@ -1,8 +1,28 @@
 {
-    "keyboard_name": "65",
+	"keyboard_name": "65",
 	"maintainer": "Timception",
     "url": "https://github.com/Timception/Majin65",
-    "manufacturer": "Majin",	
+    "manufacturer": "Majin",
+	
+	"usb": {
+        "vid": "0x5965",
+        "pid": "0x6D6A",
+        "device_version": "0.0.1",
+		"shared_endpoint": {
+            "keyboard": true
+        }
+    },	
+	
+	"development_board": "blackpill_f401",
+    "diode_direction": "COL2ROW",
+	"matrix_pins": {
+        "cols": ["B1", "B0", "A7", "A6", "A5", "A4", "A3", "A2", "A1", "A0", "C15", "C14", "B12", "B13", "B14", "B15"],
+        "rows": ["A8", "A10", "A15", "B4", "B5"]
+    },	
+	
+	"ws2812": {
+        "pin": "B8"
+    },
     	
 	"layouts": {
 		"LAYOUT": {
@@ -85,27 +105,5 @@
 				{ "matrix": [4, 15], "x": 16.5, "y": 5 }
 			]
 		}
-	},
-	
-	
-	"ws2812": {
-        "pin": "B8"
-    },
-		
-	
-	"development_board": "blackpill_f401",
-    "diode_direction": "COL2ROW",
-	"matrix_pins": {
-        "cols": ["B1", "B0", "A7", "A6", "A5", "A4", "A3", "A2", "A1", "A0", "C15", "C14", "B12", "B13", "B14", "B15"],
-        "rows": ["A8", "A10", "A15", "B4", "B5"]
-    },
-    
-	"usb": {
-        "vid": "0x5965",
-        "pid": "0x6D6A",
-        "device_version": "0.0.1",
-		"shared_endpoint": {
-            "keyboard": true
-        }
-    }
+	}	
 }

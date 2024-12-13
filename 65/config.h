@@ -14,7 +14,6 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-
 #pragma once
 
 
@@ -25,11 +24,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* key matrix pins */
 //ON STM32F401 DO NOT USE PINS A9, A11, A12, B2, C13
-/* Top to Bottom */ 
-//#define MATRIX_ROW_PINS { A8, A10, A15, B4, B5 }
 
-/* Left to Right */
-//#define MATRIX_COL_PINS { B1, B0, A7, A6, A5, A4, A3, A2, A1, A0, C15, C14, B12, B13, B14, B15}
 
 //Encoders
 #define ENCODERS_PAD_A { B10, B10 }

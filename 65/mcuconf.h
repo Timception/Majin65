@@ -2,11 +2,6 @@
 
 #include_next "mcuconf.h"
 
-
-//#undef STM32_PWM_USE_TIM5
-//#define STM32_PWM_USE_TIM5 TRUE
-
-//should be this innit
 #undef STM32_PWM_USE_TIM4
 #define STM32_PWM_USE_TIM4 TRUE
 
