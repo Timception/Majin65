@@ -9,4 +9,4 @@
 
 
 * Keyboard Maintainer: [Timception](https://github.com/Timception)
-* Images: [Click here](https://instagram.com/majin_keyboards)
+* Images: [Click here](https://instagram.com/majin.keyboards)
