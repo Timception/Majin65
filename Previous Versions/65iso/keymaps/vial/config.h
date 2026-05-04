@@ -14,18 +14,24 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 #pragma once
+#define VIAL_KEYBOARD_UID {0xCA, 0x24, 0xDC, 0x4A, 0x52, 0x73, 0x0A, 0x56}
+
 /* ws2812 RGB LED */
-#	define RGB_DI_PIN						B8
+//#	define WS2812_DI_PIN					B8
+//#	define RGB_DI_PIN						B8
 #	define RGB_MATRIX_MAXIMUM_BRIGHTNESS	99 // limits maximum brightness of LEDs to 200 out of 255. If not defined maximum brightness is set to 255
 #	define LED_MATRIX_DEFAULT_VAL 			65
 
 //#	define WS2812_TRST_US 					199	//Default is 280 - LED Refresh Rate - Must be more than 80
-#	define RGBLED_NUM						74 // Number of LEDs
-#	define DRIVER_LED_TOTAL					RGBLED_NUM
+#   define RGB_MATRIX_LED_COUNT             69
+#   define RGBLED_NUM                       69
+#   define DRIVER_LED_TOTAL                 RGBLED_NUM
+//#	define RGBLED_NUM						74 // Number of LEDs
+//#	define DRIVER_LED_TOTAL					RGBLED_NUM
+#	define RGB_MATRIX_STARTUP_MODE			RGB_MATRIX_SOLID_COLOR
 //#	define RGB_MATRIX_STARTUP_MODE			RGB_MATRIX_CYCLE_SPIRAL
 //#	define RGB_MATRIX_STARTUP_MODE			RGB_MATRIX_SOLID_REACTIVE_MULTINEXUS
 //#	define RGB_MATRIX_STARTUP_MODE			RGB_MATRIX_TYPING_HEATMAP
-//#	define RGB_MATRIX_STARTUP_MODE			RGB_MATRIX_BREATHING
 #	define LED_DISABLE_WHEN_USB_SUSPENDED	// turn off effects when suspended
 #	define LED_MATRIX_LED_PROCESS_LIMIT		(LED_MATRIX_LED_COUNT + 4) / 5 // limits the number of LEDs to process in an animation per task run (increases keyboard responsiveness)
 
@@ -38,6 +44,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #ifdef RGB_MATRIX_ENABLE
 //#   define ENABLE_RGB_MATRIX_ALPHAS_MODS
 #   define ENABLE_RGB_MATRIX_NONE
+#   define ENABLE_RGB_MATRIX_SOLID_COLOR
 #   define ENABLE_RGB_MATRIX_GRADIENT_UP_DOWN
 #   define ENABLE_RGB_MATRIX_GRADIENT_LEFT_RIGHT
 #   define ENABLE_RGB_MATRIX_BREATHING

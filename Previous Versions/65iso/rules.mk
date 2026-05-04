@@ -1,8 +1,8 @@
 # MCU name
-MCU = STM32F401
+#MCU = STM32F401
 
 # Bootloader selection
-BOOTLOADER = stm32-dfu
+#BOOTLOADER = stm32-dfu
 
 # Build Options
 BOOTMAGIC_ENABLE		= yes		# Virtual DIP switch configuration
@@ -18,11 +18,11 @@ BACKLIGHT_ENABLE		= no		# Enable keyboard backlight functionality
 RGBLIGHT_SUPPORTED		= yes
 RGB_MATRIX_SUPPORTED	= yes
 RGB_MATRIX_ENABLE		= yes
-RGB_MATRIX_DRIVER		= WS2812
+RGB_MATRIX_DRIVER		= ws2812
 #WS2812_DRIVER			= pwm
 
-OLED_ENABLE			= yes
-OLED_DRIVER			= SSD1306
+#OLED_ENABLE			= yes
+#OLED_DRIVER			= SSD1306
 WPM_ENABLE			= yes
 
 
