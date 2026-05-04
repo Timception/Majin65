@@ -25,7 +25,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#	define RGB_MATRIX_STARTUP_MODE			RGB_MATRIX_CYCLE_SPIRAL
 //#	define RGB_MATRIX_STARTUP_MODE			RGB_MATRIX_SOLID_REACTIVE_MULTINEXUS
 //#	define RGB_MATRIX_STARTUP_MODE			RGB_MATRIX_TYPING_HEATMAP
-//#	define RGB_MATRIX_STARTUP_MODE			RGB_MATRIX_BREATHING
 #	define LED_DISABLE_WHEN_USB_SUSPENDED	// turn off effects when suspended
 #	define LED_MATRIX_LED_PROCESS_LIMIT		(LED_MATRIX_LED_COUNT + 4) / 5 // limits the number of LEDs to process in an animation per task run (increases keyboard responsiveness)
 

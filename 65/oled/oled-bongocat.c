@@ -303,3 +303,52 @@ bool oled_task_user(void) {
 	is_keyboard_master() ? render_bongocat() : render_mod_status();	
 	return false;
 }
+
+// track state for A and D
+static bool a_down = false;
+static bool d_down = false;
+
+
+// Smooth/Fluid Strafe
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+	switch (keycode) {
+        case KC_A:
+            if (record->event.pressed) {
+                a_down = true;
+
+                if (d_down) {
+                    unregister_code(KC_D);
+                }
+
+                register_code(KC_A);
+            } else {
+                a_down = false;
+                unregister_code(KC_A);
+
+                if (d_down) {
+                    register_code(KC_D);
+                }
+            }
+            return false;
+
+        case KC_D:
+            if (record->event.pressed) {
+                d_down = true;
+
+                if (a_down) {
+                    unregister_code(KC_A);
+                }
+
+                register_code(KC_D);
+            } else {
+                d_down = false;
+                unregister_code(KC_D);
+
+                if (a_down) {
+                    register_code(KC_A);
+                }
+            }
+            return false;
+    }
+    return true;
+}
